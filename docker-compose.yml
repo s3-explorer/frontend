@@ -9,3 +9,11 @@ services:
     ports:
       - 3000:3000
     command: npm start
+
+  # frontend-final:
+  #   image: lucasfdutra/s3-explorer-front:latest
+  #   ports:
+  #     - "80:80"
+  #   environment:
+  #     - BACKEND_API_URL=http://192.168.1.101:5000
+    
